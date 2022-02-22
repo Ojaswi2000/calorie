@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
 }
 
 input {
@@ -44,4 +43,13 @@ button:active {
 
 h1 {
   font-family: "Redressed", cursive;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 20px 300px;
+}
+
+.inputs {
+  text-align: center;
 }
