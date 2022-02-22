@@ -19,7 +19,7 @@ const App=() => {
       }}
       />
 
-      <input type="text" placeholder='Item name' value={amount} 
+      <input type="text" placeholder='Calorie amount' value={amount} 
       onChange={(e)=>{
         setAmount(e.target.value);
       }}
