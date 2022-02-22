@@ -31,7 +31,7 @@ const App=() => {
         <button style={{left:"50%"}} onClick={handleClick} >Add Item</button>
       </div>
       {
-      showdata? <Card item={item} amount={amount}/>: 
+      showdata? <Card item={item} amount={amount} setShowdata={setShowdata}/>: 
       <h1 style={{margin:"20px",textAlign:"center"}}>Start adding items</h1>
       }
 
