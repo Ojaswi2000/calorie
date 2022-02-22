@@ -48,8 +48,31 @@ h1 {
 .container {
   border: 2px solid black;
   margin: 20px 300px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .inputs {
+  text-align: center;
+}
+
+.delete {
+  color: white;
+  background-color: rgb(248, 58, 58);
+  width: 100px;
+  margin-left: 10px;
+}
+.edit {
+  color: white;
+  background-color: rgb(46, 29, 143);
+  width: 100px;
+  margin-left: 10px;
+}
+
+.cbtn {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.add {
   text-align: center;
 }

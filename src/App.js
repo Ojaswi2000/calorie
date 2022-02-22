@@ -27,12 +27,12 @@ const App=() => {
 
       </div>
       
-      <div>
-        <button onClick={handleClick} >Add Item</button>
+      <div className='add'>
+        <button style={{left:"50%"}} onClick={handleClick} >Add Item</button>
       </div>
       {
       showdata? <Card item={item} amount={amount}/>: 
-      <h1 style={{margin:"20px"}}>Start adding items</h1>
+      <h1 style={{margin:"20px",textAlign:"center"}}>Start adding items</h1>
       }
 
       
